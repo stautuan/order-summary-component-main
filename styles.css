@@ -20,8 +20,6 @@
 
   --border-radius-sm: 1rem;
   --border-radius-big: 2rem;
-
-  --hover-transition: all 0.4s;
 }
 
 * {
@@ -169,8 +167,7 @@ button:hover {
 footer {
   position: fixed;
   bottom: 0;
-  padding: 2rem 0;
-  z-index: -1;
+  padding: 1rem 0;
 }
 
 .attribution {
@@ -202,7 +199,7 @@ footer {
   }
 
   .annual-plan p,
-  .annula-plan a {
+  .annual-plan a {
     font-size: var(--fs-sm);
   }
 
