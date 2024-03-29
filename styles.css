@@ -203,9 +203,6 @@ footer {
 @media (max-width: 24em) {
   body {
     background-image: url(images/pattern-background-mobile.svg);
-    background-color: hsl(var(--clr-pale-blue));
-    background-repeat: repeat-x;
-    background-position: top center;
   }
 
   .order-summary__img {
