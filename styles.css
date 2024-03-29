@@ -58,6 +58,7 @@ main {
 .order-summary {
   text-align: center;
   border-radius: var(--border-radius-big);
+  box-shadow: 0 1.5rem 2rem hsl(var(--clr-bright-blue) / 0.1);
   overflow: hidden;
 }
 
