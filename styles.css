@@ -8,7 +8,7 @@
   --clr-violet: 248 70% 62%;
   --clr-white: 0 0% 100%;
 
-  --font-san-serif: "Red Hat Display", sans-serif;
+  --font-sans-serif: "Red Hat Display", sans-serif;
   --fs-default: 1.6rem;
   --fs-sm: 1.4rem;
   --fs-md: 2.2rem;
@@ -37,7 +37,7 @@ body {
   background-color: hsl(var(--clr-pale-blue));
   background-repeat: repeat-x;
   background-position: top center;
-  font-family: var(--font-san-serif);
+  font-family: var(--font-sans-serif);
   font-size: var(--fs-default);
   color: hsl(var(--clr-desat-blue));
   font-weight: var(--fw-md);
@@ -169,13 +169,10 @@ button:hover {
   color: hsl(var(--clr-dark-blue));
 }
 
-footer {
+.attribution {
   position: fixed;
   bottom: 0;
-  padding: 2rem 0;
-}
-
-.attribution {
+  padding: 1rem 0;
   font-size: 1.1rem;
   text-align: center;
 }
