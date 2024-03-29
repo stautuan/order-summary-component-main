@@ -48,6 +48,8 @@ body {
 main {
   max-width: 50rem;
   padding: 0 2.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .order-summary {
